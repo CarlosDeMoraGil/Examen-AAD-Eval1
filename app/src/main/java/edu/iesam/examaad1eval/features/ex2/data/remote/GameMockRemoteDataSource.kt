@@ -1,6 +1,9 @@
-package edu.iesam.examaad1eval.features.ex2
+package edu.iesam.examaad1eval.features.ex2.data.remote
 
-class MockEx2RemoteDataSource {
+import edu.iesam.examaad1eval.features.ex2.domain.Game
+import edu.iesam.examaad1eval.features.ex2.domain.Player
+
+class GameMockRemoteDataSource {
 
     fun getGames(): List<Game>{
         return listOf(

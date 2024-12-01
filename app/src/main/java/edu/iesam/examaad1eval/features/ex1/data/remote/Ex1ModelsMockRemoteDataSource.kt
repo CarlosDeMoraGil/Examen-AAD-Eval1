@@ -1,6 +1,6 @@
 package edu.iesam.examaad1eval.features.ex1
 
-class MockEx1RemoteDataSource {
+class Ex1ModelsMockRemoteDataSource {
 
     fun getUsers(): List<User> {
         return listOf(

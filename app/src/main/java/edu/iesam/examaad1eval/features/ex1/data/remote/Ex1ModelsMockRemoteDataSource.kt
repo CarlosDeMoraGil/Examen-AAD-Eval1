@@ -29,5 +29,4 @@ class Ex1ModelsMockRemoteDataSource {
         )
     }
 
-
 }

@@ -9,11 +9,11 @@ class GameMockRemoteDataSource {
         return listOf(
             Game("1", "Day of Tentacle", getPlayers()),
             Game("2", "Monkey Island", listOf( getPlayers().first())),
-            Game("4", "Comandos 1", listOf(getPlayers().last())),
-            Game("5", "Comandos 2", listOf(getPlayers().last())),
-            Game("6", "Comandos 3", listOf(getPlayers().last())),
-            Game("7", "Comandos 4", listOf(getPlayers().last())),
-            Game("8", "Comandos 5", getPlayers()),
+            Game("3", "Comandos 1", listOf(getPlayers().last())),
+            Game("4", "Comandos 2", listOf(getPlayers().last())),
+            Game("5", "Comandos 3", listOf(getPlayers().last())),
+            Game("6", "Comandos 4", listOf(getPlayers().last())),
+            Game("7", "Comandos 5", getPlayers()),
         ).shuffled()
     }
 

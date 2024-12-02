@@ -12,4 +12,8 @@ class GameDbLocalDataSource(private val dao: GameDao) {
 
     }
 
+    fun deleteAll() {
+        dao.deleteAll()
+    }
+
 }
